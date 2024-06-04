@@ -1,0 +1,69 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://static.wixstatic.com/media/bb1bd6_aece458af3504a6ab4f036e7fc673e00~mv2.png/v1/fill/w_924,h_622,al_c,q_90,enc_auto/bb1bd6_aece458af3504a6ab4f036e7fc673e00~mv2.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-left: 700px; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .main {
+    flex: 1 0 auto;
+    }
+  .container {
+    background-color: #ccc;
+     width: 30%; 
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  .message {
+    margin-top: 15px;
+    color: red;
+  }
+  .top-right {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+#todo-table{
+    width: 100px;
+    border: 1px solid black;
+}
